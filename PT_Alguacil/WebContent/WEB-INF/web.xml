@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>PT_Alguacil</display-name>
+  <servlet>
+  	<display-name>PruebaTecnicaServlet</display-name>
+  	<servlet-name>PruebaTecnicaServlet</servlet-name>
+  	<servlet-class>com.PruebaTecnica.servlet.PruebaTecnicaServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<display-name>PruebaTecnicaBuscarServlet</display-name>
+  	<servlet-name>PruebaTecnicaBuscarServlet</servlet-name>
+  	<servlet-class>com.PruebaTecnica.servlet.PruebaTecnicaBuscarServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+		<servlet-name>PruebaTecnicaServlet</servlet-name>
+		<url-pattern>/PruebaTecnicaServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+		<servlet-name>PruebaTecnicaBuscarServlet</servlet-name>
+		<url-pattern>/PruebaTecnicaBuscarServlet</url-pattern>
+	</servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
