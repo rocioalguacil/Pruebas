@@ -1,0 +1,10 @@
+Hola, 
+
+Primero quería disculparme por la demora de la entrega, pero la verdad que es un poco complicado intentar centrarse con tres niños a mi alrededor. 
+
+Sinceramente no tenía muy claro que es lo que se pedía en la prueba técnica. No tengo experiencia en trabajo con caché, como ya comenté en la entrevista, esa parte siempre me la encontraba ya hecha cuando entraba en un proyecto (cuanto me arrepiento ahora no haber preguntado a alguien que me lo explicara!!!), por lo tanto Hazelcast no lo conocía ni de oidas.
+
+Tengo mis dudas de que lo que estoy entregando sea lo que pedís o si se le acerca en algo. Probablemente no he estado a la altura con esta prueba técnica, sinceramente lo siento.
+
+Saludos
+
