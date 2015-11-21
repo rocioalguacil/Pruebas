@@ -4,7 +4,17 @@ Primero quería disculparme por la demora de la entrega, pero la verdad que es un
 
 Sinceramente no tenía muy claro que es lo que se pedía en la prueba técnica. No tengo experiencia en trabajo con caché, como ya comenté en la entrevista, esa parte siempre me la encontraba ya hecha cuando entraba en un proyecto (cuanto me arrepiento ahora no haber preguntado a alguien que me lo explicara!!!), por lo tanto Hazelcast no lo conocía ni de oidas.
 
-Tengo mis dudas de que lo que estoy entregando sea lo que pedís o si se le acerca en algo. Probablemente no he estado a la altura con esta prueba técnica, sinceramente lo siento.
+Algunas consideraciones:
+1.- En el fichero scripts.txt se encuentran los scritps para crear la base de datos necesaria. Solo he puesto 6400 registros.
+
+2.- En el fichero hibernate.cfg.xml deberá de cambiar el usuario y contraseña de su mysql.
+
+3.- La carpeta es un proyecto completo elaborado con eclipse, podrán copiar la carpeta en un workspace e importar desde carpeta.
+
+4.- Probablemente lo poco que he hecho se puede mejorar, pero lo primero que hay que hacer es pulsar el botón "Cargar Datos" para que se cargue en caché. Cualquier acción que se realice antes fallará porque intenta acceder a caché y no encuentra nada.
+
+5.- El buscador es muy simple, busca por identificador de la tabla y por nombre, en este último caso, hay que introducir el nombre exacto, es sensible a mayúsculas y minúsculas.
+
 
 Saludos
 
