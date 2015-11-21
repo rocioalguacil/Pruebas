@@ -29,6 +29,7 @@ function comprobar(){
 	<h1>Prueba Técnica - Hazelcast</h1>
 	
 	<form method="post" action="PruebaTecnicaServlet">
+		<h5>Nota: lo primero que se debe hacer es pulsar el botón "Cargar Datos" y después ya podrá usar el buscador.</h5>
  		<input type="submit" name="cargar" value="Cargar Datos" />
  		<input type="submit" name="borrar" value="Borrar Datos" />
  		

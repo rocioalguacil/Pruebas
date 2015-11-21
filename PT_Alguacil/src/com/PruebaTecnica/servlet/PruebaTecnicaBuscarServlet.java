@@ -27,6 +27,7 @@ public class PruebaTecnicaBuscarServlet extends HttpServlet {
 	{
 
 		ClientConfig clientConfig = new ClientConfig();
+		
         HazelcastInstance client = HazelcastClient.newHazelcastClient( clientConfig );
         List<Usuario> usuarios = client.getList("cacheUsuarios");
         
